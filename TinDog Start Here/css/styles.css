@@ -50,6 +50,13 @@ body {
   transform: rotate(25deg);
 }
 
+#features{
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  
+}
+
 .feature-box {
   text-align: center;
   padding: 5% 3%;
@@ -76,7 +83,6 @@ body {
 
 /* testimonial section */
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
@@ -94,6 +100,10 @@ h2 {
   margin: 20px;
 }
 
+.carousel-item{
+  padding: 7% 15%;
+}
+
 #press {
   background-color: #ef8172;
   text-align: center;
@@ -103,4 +113,14 @@ h2 {
 .press-logo {
 width: 15%;
 margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
